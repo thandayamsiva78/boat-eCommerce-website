@@ -1,7 +1,13 @@
 * {
-    scroll-behavior: smooth;
+     margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
   }
-  
+
+body {
+  font-family: Arial, sans-serif;
+}
   #main-dashboard {
     display: grid;
     grid-template-columns: 100% 1fr;
@@ -330,10 +336,11 @@
       justify-content: center;
       gap: 5px;
     }
-    #best-sellers > div {
-      max-width: 140px;
-      margin: 0px;
-    }
+    #best-sellers>div {
+    max-width: 200px;
+    margin: 0px;
+    padding: 16px;
+  }
     .topHeading {
       width: 80px;
     }
