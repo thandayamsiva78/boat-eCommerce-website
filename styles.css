@@ -191,9 +191,15 @@
   #best-sellers {
     position: relative;
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
   
   #best-sellers > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     background-color: rgba(255, 255, 255, 0.623);
     border: 1px solid none;
     width: 250px;
@@ -322,7 +328,7 @@
       gap: 5px;
     }
     #best-sellers > div {
-      max-width: 200px;
+      max-width: 140px;
       margin: 0px;
     }
     .topHeading {
@@ -356,8 +362,7 @@
   }
   
   
-  
-  @media (max-width:425px) {
+  @media (max-width:300px) {
     #best-sellers {
       width: 100%;
       margin: 0px 0px;
@@ -367,7 +372,7 @@
       gap: 5px;
     }
     #best-sellers > div {
-      max-width: 190px;
+      max-width: 250px;
       margin: 0px;
     }
   }
