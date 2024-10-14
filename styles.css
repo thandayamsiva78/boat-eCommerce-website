@@ -372,20 +372,39 @@ body {
   }
   
   
-  @media (max-width:390px) {
-    #best-sellers {
-      width: 100%;
-      margin: 0px 0px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 5px;
-    }
-    #best-sellers > div {
-      max-width: 170px;
-      margin: 0px;
-    }
+@media (max-width:374px) {
+  #best-sellers {
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
+
+  #best-sellers>div {
+    max-width: 150px;
+    margin: 0px;
+    width: 100%;
+  }
+}
+
+@media (max-width:348px) {
+  #best-sellers {
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #best-sellers>div {
+    max-width: 100%;
+    margin: 0px;
+    width: 100%;
+  }
+}
   
   /* ------------------------------------Aside -------------------------------------*/
   
