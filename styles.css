@@ -337,7 +337,7 @@ body {
       gap: 5px;
     }
     #best-sellers>div {
-    max-width: 200px;
+    max-width: 180px;
     margin: 0px;
     padding: 16px;
   }
@@ -372,7 +372,7 @@ body {
   }
   
   
-  @media (max-width:300px) {
+  @media (max-width:390px) {
     #best-sellers {
       width: 100%;
       margin: 0px 0px;
@@ -382,7 +382,7 @@ body {
       gap: 5px;
     }
     #best-sellers > div {
-      max-width: 250px;
+      max-width: 170px;
       margin: 0px;
     }
   }
